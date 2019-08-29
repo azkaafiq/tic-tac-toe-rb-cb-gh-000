@@ -1,13 +1,13 @@
 Skip to content
- 
+
 Search or jump to…
 
 Pull requests
 Issues
 Marketplace
 Explore
- 
-@azkaafiq 
+
+@azkaafiq
 1
 0 5 alexisadorn/Tic-Tac-Toe-Ruby
  Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Insights
@@ -15,10 +15,10 @@ Tic-Tac-Toe-Ruby/tic-tac-toe-rb-v-000/spec/02_play_spec.rb
 @alexisadorn alexisadorn Tic Tac Toe labs
 8f439e7 on 29 Mar 2017
 136 lines (98 sloc)  4.03 KB
-    
+
 require_relative '../lib/tic_tac_toe.rb'
 
-describe './lib/tic_tac_toe.rb' do  
+describe './lib/tic_tac_toe.rb' do
   describe '#play' do
     it 'asks for players input on a turn of the game' do
       board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
